@@ -72,7 +72,7 @@ def cqp_event_private_msg(subType:int, msgId:int, fromQQ:int, msg:str, font:int)
 
 # Type=2 群消息
 
-def cqp_event_group_msg(subType:int, msgId:int, fromGroup:int, fromQQ:int, fromAnonymous, msg:str, font:int) -> int:
+def cqp_event_group_msg(subType:int, msgId:int, fromGroup:int, fromQQ:int, fromAnonymous:str, msg:str, font:int) -> int:
     sdk.sendGroupMsg(AUTH_CODE, fromGroup, msg)        
     # return cqsdk.EVENT_BLOCK
     return False
