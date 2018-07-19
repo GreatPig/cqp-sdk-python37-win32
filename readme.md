@@ -1,6 +1,8 @@
 ## 作者: alphafase
 # gayhub：https://github.com/AlphaFase/cqp-sdk-python37-win32.git
 
+## 下载的童鞋，麻烦右上角，fork或者star
+
 # 插件跟随软件启动，禁用插件并不会停止python，启用插件只是reload python，热更新
 
 ### 1. com.example.democ.dll 和 com.example.democ.json 和com.example.democ 目录  
