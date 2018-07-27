@@ -216,3 +216,11 @@ class CqSdk:
     """
     def getRecord(self,AuthCode:int, file:str, outformat:str) -> str:
         return self.CQDLL.CQ_getRecord(c_int(AuthCode), c_char_p(file.encode('gbk')), c_char_p(outformat.encode('gbk')))
+
+    """
+    获取群列表
+    """
+    def getGroupList(self,AuthCode:int) -> str:
+        return self.CQDLL.CQ_getGroupList(c_int(AuthCode))
+    
+    
